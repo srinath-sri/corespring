@@ -5,10 +5,12 @@
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
-	
-		<bean id="hp" class="com.simsa.Hp" />
+	<!--BEAN NAME AND PROPERTY NAME SHOULD BE SAME>  --> 
+
 	<bean id="diskcapacity" class="com.simsa.Diskcapacity" />
 	<bean id="disktype" class="com.simsa.Disktype" />
-
+			
+	<bean id="delll" class="com.simsa.Hp"  autowire="byName"/>
+	
 
 </beans>
